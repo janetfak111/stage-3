@@ -4,7 +4,7 @@ nav {
   justify-content: space-between;
   gap: 1rem;
   flex-wrap: wrap;
-  background-color: rgb(55, 52, 52);
+  background-color: #000;
   padding: 1rem 10%;
   position: fixed;
   width: 100%;
