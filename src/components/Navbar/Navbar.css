@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  background-color: rgb(55, 52, 52);
+  padding: 1rem 10%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+nav h1 {
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1180px) {
+  nav {
+    padding: 1rem 3rem;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  nav {
+    padding: 1rem 2rem;
+  }
+}
